@@ -6,7 +6,6 @@ class SJF:
         for i in range(no_of_processes):
             temporary = []
             process_id = int(input("Enter Process ID: "))
-
             arrival_time = int(input(f"Enter Arrival Time for Process {process_id}: "))
 
             burst_time = int(input(f"Enter Burst Time for Process {process_id}: "))
